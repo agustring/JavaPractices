@@ -15,9 +15,8 @@ public class Synckey {
         synckey.doSomething();
     }
     
-    //only way they reach 20000 in the console output
     public synchronized void inc() { //intrinsic lock by this method
-        c++;
+        c++; //current state of the variable can be visible by all threads.
     }
     
     public void doSomething(){
