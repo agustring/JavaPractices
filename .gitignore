@@ -4,3 +4,9 @@
 /ThreadPools/build/
 /ThreadPool/nbproject/private/
 /ThreadPool/build/
+/CountdownLatches/nbproject/private/
+/CountdownLatches/build/
+/ProducerConsumer/nbproject/private/
+/ProducerConsumer/build/
+/WaitAndNotify/nbproject/private/
+/WaitAndNotify/build/
