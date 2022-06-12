@@ -16,7 +16,7 @@ public class Runner {
     private Lock lock2 = new ReentrantLock();
     
     public void acquireLocks(Lock lock1, Lock lock2){
-        while(true){ //Because I really need this to happend
+        while(true){ //Because I really need this to get both locks
             boolean gotFirst = false;
             boolean gotSecond = false;
             
